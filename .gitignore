@@ -10,7 +10,7 @@
 /node_modules
 npm-debug.log
 yarn-error.log
-node_modules*
+*node_modules*
 
 # IDEs and editors
 .idea/
@@ -30,13 +30,13 @@ node_modules*
 .history/*
 
 # Miscellaneous
-/.angular/cache
-.sass-cache/
-/connect.lock
-/coverage
-/libpeerconnection.log
+*.angular/cache*
+.sass-cache
+connect.lock
+coverage
+libpeerconnection.log
 testem.log
-/typings
+typings
 
 # System files
 .DS_Store
