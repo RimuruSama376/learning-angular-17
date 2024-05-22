@@ -1,0 +1,10 @@
+<!-- <p>Server with ID {{ serverID}} is currently {{status}}, name of the server is {{ serverName }}</p> -->
+<input type="text" class="form-control" (input)="handleInputChange($event)" [(ngModel)]="inputText">
+<button class="btn btn-primary" (click)="handleClickEvent()" [disabled]="!inputText.length">
+  Click me!
+</button>
+@if (userName.length) {
+<p>Current value of username: {{ userName }}</p>
+} @else {
+<p>Please enter a name</p>
+}
